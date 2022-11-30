@@ -1,0 +1,26 @@
+Algoritmo trabajo_final_2
+	Escribir "Welcome to my homework!"
+	total <- 0
+	i = 2
+	a = 4
+	d = 6
+	Escribir "Escribe tu nombre:"
+	Leer nombre
+	Escribir "Escribe tu edad:"
+	Leer edad
+	Escribir "Escribe tu peso:"
+	Leer peso
+	Escribir "Escribe tu regimen fiscal:"
+	Leer regimen
+	Escribir "Sumando tu edad y peso el resultado es:"
+	Total <- edad + peso
+	Escribir total
+	Escribir "Cuantas repeticiones quieres?"
+	Leer numero
+	Escribir "El numero de repeticion"
+	Escribir "Termina tu ciclo"
+FinAlgoritmo
+
+
+
+
