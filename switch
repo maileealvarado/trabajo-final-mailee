@@ -1,0 +1,35 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		
+		int a;
+	
+		Console.Write("Escribe un numero entero: ");
+		a = Convert.ToInt16(Console.ReadLine());
+	
+		 switch (a)
+		 {
+		
+				
+			case 1:
+			case 4:
+			case 8:
+				Console.WriteLine("Enero");
+			    break;
+			case 2:
+			case 5:
+			case 9:
+				Console.WriteLine("Febrero");
+			    break;
+			case 3:
+				Console.WriteLine("Marzo");
+			    break;
+			default:
+				Console.WriteLine("Este mes no existe");
+			    break;
+		 }
+	}
+}
